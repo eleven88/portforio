@@ -1,0 +1,413 @@
+
+/*初期設定------------*/
+
+p {
+	line-height: 1.7;
+}
+a:link{
+	color: #fff;
+	text-decoration:none;
+}
+a:visited{
+	color: #666;
+}
+a:hover{
+	color: #afa493;
+}
+
+header a:visited {
+	color:#fff;
+}
+
+header a:hover {
+	color: #E9DCD7;
+}
+
+footer a:visited {
+	color:#fff;
+}
+
+footer a:hover {
+	color: #E9DCD7;
+}
+
+
+img{
+	border: 0;
+	vertical-align:bottom;
+}
+em,address{
+	font-style:normal;
+}
+
+
+
+.inner{
+	width:1000px;
+	margin:0 auto;
+	font-size:15px;
+}
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:75%;
+}
+
+.top_btn{
+    position: fixed;
+    bottom: 70px;
+    right: 100px;
+    z-index: 20;
+    width: 60px;
+    height: 60px;
+    border-radius:100%;
+    background: #dddddd;
+}
+
+.top_btn img{
+    width: 40px;
+    height: 30px;
+    padding: 13px 10px 7px 10px;
+}
+
+.top_btn:hover{
+    opacity: 0.5;
+}
+
+/*ヘッダーナビ------------*/
+
+header{
+	height: 85px;	
+	background:#afa493;
+}
+
+.header_inner{
+	overflow: hidden;
+	padding: 25px 0;
+
+}
+
+
+.header_logo img{
+	width:120px;
+	height:35px;
+	float:left;
+}
+
+
+
+.header_nav ul{
+	color: #fff;
+	float:right;
+	line-height: 35px;
+	font-size: 16px;
+}
+
+.header_nav ul li{
+	display:inline;
+	margin-right:25px;
+}
+
+
+
+.header_nav img:hover{
+	opacity: 0.5;
+}
+
+
+
+/*メインコンテンツ------------*/
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:26px;
+	padding-bottom:60px;
+	text-align: center;
+    
+}
+
+.myslider{
+	padding-bottom: 30px;
+}
+
+.myslider_content{
+	position: relative;
+}
+
+.myslider_text{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	font-size: 17px;
+	color: #fff;
+}
+
+
+
+.myslider_text1{
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+
+.myslider img{
+	width: 100%;
+}
+
+ .about_text1{
+	padding:280px 0px 50px;
+	font-size: 17px;
+}
+
+.about_text2{
+	line-height:35px;
+	font-size: 16px;
+}
+
+.news{
+	background:#fff;
+	height:380px;
+	color:#81796b;
+	padding:60px 0;
+
+}
+
+.news dl {
+	width: 700px;
+	list-style:none;
+	 margin: auto;
+}
+
+.news dl dt{
+    width: 150px;
+	border-bottom: 1px dotted #81796b;
+    float: left;
+    padding: 20px;
+}
+
+.news dl  dd{
+    width: 470px;
+    border-bottom: 1px dotted #81796b;
+    float: left;
+    padding: 20px;
+}
+
+
+.collection{
+	background:#afa493;
+	height:800px;
+	color:#fff;
+	padding:90px 0 30px 0;
+}
+
+.pic_field{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.pic_field figure{
+	margin-bottom: 30px;
+	position: relative;
+}
+
+figure .hover_mask{
+	position: absolute;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bolder;
+	line-height: 25px;
+	top: 70%;
+	left: 10%;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.collection .pic_field figure:hover .hover_mask{
+	opacity: 1;
+}
+
+.collection .pic_field  img:hover{
+	opacity: 0.4;
+}
+
+.collection_more{
+	width:180px;
+	border:#fff solid 1px;
+    color:#afa493;
+	font-size:18px;
+	border-radius:20px;
+	text-align:center;
+	line-height: 35px;
+	letter-spacing: 1px;
+	margin:50px auto 0;
+}
+
+.collection_more a:link{
+	color: #fff;
+	text-decoration:none;
+}
+
+.collection_more  a:hover {
+	color: #E9DCD7;
+}
+
+.store{
+	background:#fff;
+	height:500px;
+	color:#81796b;
+	padding:90px 0 30px 0;
+}
+
+iframe{
+	float:left;
+}
+
+.store_info{
+	width:400px;
+	float:right;
+}
+
+.store_info h3 img{
+	padding-top: 90px;
+	padding-bottom:40px;
+    width:120px;
+	height:35px;
+}
+
+address{
+	padding-bottom:20px;
+	line-height: 21px;
+}
+
+.store_info_table {
+	width: 350px;
+}
+
+.store_info_table dt{
+	float: left;
+	width: 85px;
+
+}
+
+.store_info_table dd{
+	width: 265px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+/*フッダー------------*/
+
+footer{
+	background:#afa493;
+	height:300px;
+	color:#fff;
+	padding:60px 80px;
+	text-align: center;
+	position: relative;
+}
+
+footer .sns ul{
+	display: flex;
+	margin: 0 auto 30px;
+	width: 150px;
+	justify-content: space-between;
+}
+
+footer .sns ul li{
+	list-style: none;
+}
+
+footer .sns img{
+	width: 30px;
+}
+
+footer .sns img:hover{
+	opacity: 0.5;
+}
+
+footer nav{
+	padding-bottom: 60px;
+	line-height: 30px;
+
+}
+footer h3 img{
+	padding-bottom: 10px;
+	width:120px;
+	height:35px;
+}
+
+footer small{
+	font-size: small;
+}
+
+
+
+/*コンタクト-----------------*/
+
+article{
+	background:#fff;
+	height:800px;
+	color:#81796b;
+	padding:60px 80px;
+}
+
+
+table tr{
+	height:90px;
+}
+
+table tr th{
+	font-size:14px;
+	width:200px;
+	text-align:left;
+	padding-right:50px;
+	vertical-align:top;
+}
+
+input[type="text"],input[type="tell"],input[type="email"],textarea{
+    border: solid 1px #81796b;
+    padding:4px;
+    border-radius: 3px
+}
+
+table tr td input[type="text"]{
+	width:300px;
+}
+
+table tr td input[type="tell"]{
+	width:300px;
+}
+
+table tr td input[type="email"]{
+	width:400px;
+}
+
+table tr td textarea{
+	width: 400px;
+	height: 200px;
+    resize: vertical;
+}
+
+.button{	
+	text-align: center;
+}
+
+input[type="submit"]{
+	width:180px;
+	border:#afa493 solid 1px;
+    color:#afa493;
+	font-size:17px;
+	border-radius:20px;
+	text-align:center;
+	line-height: 35px;
+	letter-spacing: 5px;
+	margin:50px auto 0;
+    background: #fff;
+}
+
+
+input[type="submit"] :hover{
+	color: #666;
+}
