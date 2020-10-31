@@ -271,7 +271,7 @@ li {
  About
 ---------------------------------*/
 .about-section .inner {
-  max-width: 1000px;
+  max-width: 1040px;
 }
 
 .about-item {
@@ -443,7 +443,7 @@ li {
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
   body {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.7;
   }
 
