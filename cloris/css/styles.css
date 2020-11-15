@@ -135,7 +135,7 @@ h2{
 
 .myslider_text{
 	position: absolute;
-	top: 50%;
+	bottom: 10%;
 	left: 5%;
 	font-size: 17px;
 	color: #fff;
@@ -144,7 +144,7 @@ h2{
 
 
 .myslider_text1{
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	font-size: 30px;
 	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 1px;
